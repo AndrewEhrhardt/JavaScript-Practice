@@ -27,4 +27,13 @@ function reverse(arr) {
 	return arr.reverse();
 }
 
-//
+//Using Ternary Operators
+function yeah_nope(bool) {
+	return bool ? "yeah" : "nope"
+}
+
+//Return's the nth even number 
+function nthEven(n) {
+	return n*2-2;
+}
+
